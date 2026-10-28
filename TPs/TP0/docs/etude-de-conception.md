@@ -19,7 +19,7 @@ Groupe : [noms] · Version : [brouillon / finale] · Date : [jj/mm/aaaa]
 |---|---|---|---|
 
 ## 5. Métriques, baseline et critères d'acceptation
-- Baseline et son score :
+- Baseline et son score : 
 - Métrique principale, et pourquoi :
 - Critères d'acceptation (métrique, nombre, jeu de données, condition) :
 
