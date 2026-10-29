@@ -89,7 +89,7 @@ Dans le schéma `SensorReading` associé à `POST /v1/predict`, sous les paramè
 
 ## 7. Le rendu Git
 
-- Lien de la pull request : à ajouter après son ouverture
+- Lien de la pull request : https://github.com/ZAKii4/application_intelligente/pull/1
 - Le tag `tp1` existe sur GitHub : non (vérifié le 29 octobre 2026)
 - Qui a relu la pull request, et quel commentaire a-t-il laissé ?
   Aucune relecture pour le moment.
