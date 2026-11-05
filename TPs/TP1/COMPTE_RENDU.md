@@ -66,7 +66,7 @@ Après `python -m maintai.dataset` et `python -m maintai.train`, lancez `uvicorn
 | Requête | Code obtenu | Réponse (le corps JSON) |
 |---|---|---|
 | `GET /health` | 200 | `{"status":"ok","model_loaded":true}` |
-| `POST /v1/predict` avec `{"temperature_c": 72.5, "vibration_mm_s": 6.1, "load_pct": 85, "runtime_hours": 15000}` | 200 | `{"failure_probability":0.9553,"alert":true,"threshold":0.3,"model_version":"2026-10-28T17:39:38Z"}` |
+| `POST /v1/predict` avec `{"temperature_c": 72.5, "vibration_mm_s": 6.1, "load_pct": 85, "runtime_hours": 15000}` | 200 | `{"failure_probability":0.9553,"alert":true,"threshold":0.3,"model_version":"2026-10-29T00:14:50Z"}` |
 | `POST /v1/predict` avec une température de 500 | 422 | `{"detail":[{"type":"less_than_equal","loc":["body","temperature_c"],"msg":"Input should be less than or equal to 200","input":500,"ctx":{"le":200.0}}]}` |
 | `POST /v1/predicte` (faute de frappe dans l'adresse) | 404 | `{"detail":"Not Found"}` |
 
@@ -89,10 +89,10 @@ Dans le schéma `SensorReading` associé à `POST /v1/predict`, sous les paramè
 
 ## 7. Le rendu Git
 
-- Lien de la pull request : à renseigner
-- Le tag `tp1` existe sur GitHub : à vérifier
+- Lien de la pull request : https://github.com/ZAKii4/application_intelligente/pull/1
+- Le tag `tp1` existe sur GitHub : non (vérifié le 29 octobre 2026)
 - Qui a relu la pull request, et quel commentaire a-t-il laissé ?
-  À renseigner après la relecture.
+  Aucune relecture pour le moment.
 
 ## 8. Ce qui reste flou
 
